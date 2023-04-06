@@ -1,6 +1,12 @@
-article {
-  background-color: salmon;
-  color: black;
+article{
+    color: black;
+    text-align: center;
+    width: 300px;
+    background-color: beige;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 * {
   margin: 0px;
@@ -18,6 +24,7 @@ nav li{
     height: 60px;
     align-items: center;
     justify-content: center;
+    
 }
 nav a{
     text-decoration: none;
@@ -34,33 +41,22 @@ nav a:active {
 #a1 > div {
     border: 2px solid;
     width: 250px;
-    border-radius: 25px;
+    border-radius: 50%;
     display:flex;
 
 }
 
 #a1 img {
-    width: 100%;
-}
-article{
-    background-color: beige;
-    margin: 50px 40px 30px 20px;
-    padding-left: 20px;
-    /* margin-top: 50px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-    margin-left: 20px; */
-}
-#a2 {
-  background-color: aquamarine;
-}
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 
-.c1 {
-  background-color: blanchedalmond;
 }
 h3 {
   color: black;
+  flex-direction: row;
 }
-.c3 > h3 {
-  color: black;
+article > li {
+    list-style-type: none;
+    padding-left: 20px;
 }
