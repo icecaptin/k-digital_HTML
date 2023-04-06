@@ -1,0 +1,65 @@
+article {
+  background-color: salmon;
+  color: black;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+    height: 60px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+nav li{
+    display: inline-flex;
+    width: 150px;
+    background-color: gray;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    background-color: bisque;
+    color: violet;
+}
+nav a:active {
+    background-color: azure;
+    color: brown;
+}
+#a1 > div {
+    border: 2px solid;
+    width: 250px;
+    border-radius: 25px;
+
+}
+
+#a1 img {
+    width: 100%;
+}
+article{
+    background-color: beige;
+    margin: 50px 40px 30px 20px;
+    padding-left: 20px;
+    /* margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px; */
+}
+#a2 {
+  background-color: aquamarine;
+}
+
+.c1 {
+  background-color: blanchedalmond;
+}
+h3 {
+  color: black;
+}
+.c3 > h3 {
+  color: black;
+}
