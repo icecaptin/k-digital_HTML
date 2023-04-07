@@ -1,0 +1,10 @@
+.sentence_div {
+    display: flex;
+}
+
+.image_div{
+    width: 20%;
+}
+.sentence_p{
+    width: 70%;
+}

@@ -1,0 +1,76 @@
+article{
+    color: black;
+    text-align: center;
+    width: 300px;
+    background-color: beige;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 35px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+    height: 60px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+nav li{
+    display: inline-flex;
+    width: 150px;
+    background-color: gray;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* nav 안에잇는 a만 */
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    background-color: bisque;
+    color: violet;
+}
+nav a:active {
+    background-color: azure;
+    color:blue;
+}
+#a1 > div {
+    border: 2px solid;
+    width: 250px;
+    border-radius: 50%;
+    display:flex;
+
+}
+
+#a1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+h3 {
+  color: black;
+  flex-direction: row;
+}
+article > li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+
+
+/*ex) main > s a
+main안에잇는 s안의 a 다 */
+
+/*link 링크 클릭 안햇을때
+:visited 클릭햇을때
+:hover 마우스 올라와잇을때
+:active 클릭되잇을때
+:focus 포커스가 와잇을때*/
