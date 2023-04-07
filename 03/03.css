@@ -7,6 +7,8 @@ article{
     margin-right: 20px;
     margin-left: 20px;
     padding-left: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 35px;
 }
 * {
   margin: 0px;
@@ -26,6 +28,7 @@ nav li{
     justify-content: center;
     
 }
+/* nav 안에잇는 a만 */
 nav a{
     text-decoration: none;
     color: black;
@@ -60,3 +63,14 @@ article > li {
     list-style-type: none;
     padding-left: 20px;
 }
+
+
+
+/*ex) main > s a
+main안에잇는 s안의 a 다 */
+
+/*link 링크 클릭 안햇을때
+:visited 클릭햇을때
+:hover 마우스 올라와잇을때
+:active 클릭되잇을때
+:focus 포커스가 와잇을때*/

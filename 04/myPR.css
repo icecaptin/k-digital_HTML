@@ -1,0 +1,9 @@
+.sentence_div {
+    display: flex;
+}
+.sentence_p{
+    width: 70%;
+}
+li {
+    list-style-type: none;
+}
