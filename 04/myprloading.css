@@ -1,0 +1,9 @@
+.loading-page {
+    /* ... */
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .loading-page.fade-out {
+    opacity: 0;
+  }
