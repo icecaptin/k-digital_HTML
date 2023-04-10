@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <article>
+        <form>
+          <div class="grid">
+            <label for="firstname">
+              성
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="성을 입력하세요."
+                required
+              />
+            </label>
+
+            <label for="lastname">
+              이름
+              <input
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="이름을 입력하세요."
+                required
+              />
+            </label>
+          </div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <small>We'll never share your email with anyone else.</small>
+          <!-- <button type="submit">확인</button> -->
+          <div class="grid">
+            <input type="submit" value="확인" />
+            <input type="reset" value="취소" />
+          </div>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
