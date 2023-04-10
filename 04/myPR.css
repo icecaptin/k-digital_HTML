@@ -1,9 +1,9 @@
 .sentence_div {
-    display: flex;
+  display: flex;
 }
-.sentence_p{
-    width: 70%;
+.sentence_p {
+  width: 70%;
 }
 li {
-    list-style-type: none;
+  list-style-type: none;
 }

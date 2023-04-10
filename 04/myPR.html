@@ -8,23 +8,31 @@
       rel="stylesheet"
       href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="myPF.css" />
+    <link rel="stylesheet" type="text/css" href="myPR.css" />
     <title>자기소개</title>
   </head>
   <body>
     <header class="container">
-      <h1>자기소개서</h1>
-      <h2>K-digital 부산대학교 3기 양성부</h2>
+      <div class="wrapper">
+        <div class="typing_h1">
+          <h1>자기소개서</h1>
+        </div>
+        <div class="typing_h1">
+          <div class="text"><h2>K-digital 부산대학교 3기 양성부</h2></div>
+        </div>
+      </div>
     </header>
     <nav class="container">
       <ul>
-        <li><strong><h3>목록</h3></strong></li>
+        <li>
+          <strong><h3>목록</h3></strong>
+        </li>
       </ul>
       <ul>
-        <li><a href="#d1" role="button" class="contrast">개인정보</a></li>
-        <li><a href="#d2" role="button" class="contrast">학력사항</a></li>
-        <li><a href="#d1" role="button" class="contrast">프로젝트</a></li>
-        <li><a href="#d2" role="button" class="contrast">사용가능언어</a></li>
+        <li><a href="#d1" role="button" class="outline">개인정보</a></li>
+        <li><a href="#d2" role="button" class="outline">학력사항</a></li>
+        <li><a href="#d1" role="button" class="outline">프로젝트</a></li>
+        <li><a href="#d2" role="button" class="outline">사용가능언어</a></li>
       </ul>
     </nav>
     <main class="container">
@@ -81,7 +89,7 @@
                 <a
                   href="https://github.com/icecaptin/joljak"
                   role="button"
-                  class="contrast"
+                  class="outline"
                   >바로가기</a
                 >
               </ol>
@@ -90,7 +98,7 @@
                 <a
                   href="https://github.com/enmael/lotto"
                   role="button"
-                  class="contrast"
+                  class="outline"
                   >바로가기</a
                 >
               </ol>
@@ -99,8 +107,9 @@
                 <a
                   href="https://colab.research.google.com/drive/1Cezcz3hh7UQII2HCxbL5_lqQF2CI1ebg?usp=sharing"
                   role="button"
-                  class="contrast"
-                >바로가기</a>
+                  class="outline"
+                  >바로가기</a
+                >
               </ol>
             </ul>
           </div>
