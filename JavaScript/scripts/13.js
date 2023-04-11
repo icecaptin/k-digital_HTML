@@ -8,6 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+var list = "";
+//case1
+for(let i = 0; i < bts.length; i++) {
+    // console.log(bts[i].textContent);
+    list = list + "<li>" + bts[i].textContent + "</li>";
+    
+}
+document.getElementById("h2Id").innerHTML = list;
+
+
 //   for(let item of bts) {
 //     console.log(item.textContent)
 //   }
@@ -30,3 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
 // for (let idx in bts) {
 //     console.log(bts[idx].textContent);
 //   }
+
+// var list = "";
+// //case1
+// for(let i = 0; i < bts.length; i++) {
+//     // console.log(bts[i].textContent);
+//     list = list + "<li>" + bts[i].textContent + "</li>";
+    
+// }
+// document.getElementById("h2Id").innerHTML = list;
