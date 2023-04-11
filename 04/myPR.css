@@ -1,9 +1,19 @@
 .sentence_div {
-    display: flex;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
-.sentence_p{
-    width: 70%;
-}
-li {
+.sentence_div ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.sentence_p {
+  width: 70%;
 }
+
+.sentence_div ol li {
+    margin-bottom: 10px;
+    list-style-type: square;
+  }
