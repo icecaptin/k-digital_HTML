@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const selcc = document.querySelector("#selcc"); //from
-    const selff = document.querySelector("#selff"); //to
+    let selcc = document.querySelector("#selcc"); //from
+    let selff = document.querySelector("#selff"); //to
     const celsius = document.querySelector("#celsius");
     const fahrenheit = document.querySelector("#fahrenheit");
     const div1 = document.querySelector("#div1");
@@ -11,14 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
     div2.textContent = selff.value;
 
     selcc.addEventListener("change", (e) => {
-        selcc.innerHTML = e.target.value;
+        div1.innerHTML = e.target.value;
         selcc = e.target;
         reSult();
     })
 
     selff.addEventListener("change", (e) => {
-        selff.innerHTML = e.target.value;
-        selff.e.target;
+        div2.innerHTML = e.target.value;
+        selff = e.target;
         reSult();
     })
 
