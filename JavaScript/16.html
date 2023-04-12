@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--pico css CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"/>
+    <!-- 외부스크립트 가져오기 -->
+    <script src="./scripts/16.js"></script>
+
+    <title>K-digital 3기 JS</title>
+  </head>
+  <body>
+    <main class="container">
+      <article>
+        <header><h1>Dice Roll</h1></header>
+        <h2 id="h2Id" class="h2Class"><img /></h2>
+        <h3></h3>
+        <form>
+          <fieldset>
+            <h2><legend>Select the number</legend></h2>
+            <div class="grid" style="display: flex">
+              <label for="small">
+                <input type="radio" id="dice" name="num" value="1" />
+                1
+              </label>
+              <label for="medium">
+                <input type="radio" id="dice" name="num" value="2" />
+                2
+              </label>
+              <label for="large">
+                <input type="radio" id="dice" name="num" value="3" />
+                3
+              </label>
+              <label for="large">
+                <input type="radio" id="dice" name="num" value="4" />
+                4
+              </label>
+              <label for="large">
+                <input type="radio" id="dice" name="num" value="5" />
+                5
+              </label>
+              <label for="large">
+                <input type="radio" id="dice" name="num" value="6" />
+                6
+              </label>
+            </div>
+          </fieldset>
+          <div class="grid">
+            <button onclick="show();">Press the Button</button>
+            <button type="reset">Cancel</button>
+          </div>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
