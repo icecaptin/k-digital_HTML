@@ -1,6 +1,7 @@
 https://icecaptin.github.io/k-digital_HTML/   
 
 
+(04.12 : 주사위 게임,온도변환기_아직미완성)   
 (04.11 : JavaScript 응용1 및 index.html 수정)   
 (04.10 : JavaScript 운영)   
 (04.09 : JavaScript 기초)   
