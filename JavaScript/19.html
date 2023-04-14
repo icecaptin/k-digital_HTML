@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>문자열 다루기</title>
+    <title>배열 다루기</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <link rel="stylesheet" href="./19.css">
     <script src="./scripts/19.js"></script>
 </head>
 
@@ -26,19 +27,37 @@
             <button class="bt1">수박</button>
         </div>
         <div class="grid">
-            <button class="bt2">사과삭제</button>
-            <button class="bt2">바나나삭제</button>
-            <button class="bt2">오렌지삭제</button>
-            <button class="bt2">수박삭제</button>
+            <button class="bt2 secondary">사과삭제</button>
+            <button class="bt2 secondary">바나나삭제</button>
+            <button class="bt2 secondary">오렌지삭제</button>
+            <button class="bt2 secondary">수박삭제</button>
         </div>
         <div class="grid">
-            <button class="bt3">사과 -> 당근</button>
-            <button class="bt3">바나나 -> 오이</button>
-            <button class="bt3">오렌지 -> 아보카도</button>
-            <button class="bt3">수박 -> 브로콜리</button>
+            <button class="bt3 contrast">사과 -> 당근</button>
+            <button class="bt3 contrast">바나나 -> 오이</button>
+            <button class="bt3 contrast">오렌지 -> 아보카도</button>
+            <button class="bt3 contrast">수박 -> 브로콜리</button>
         </div>
         <div class="grid">
-            <button id="btReset">Cancel</button>
+            <button class="bt5">당근</button>
+            <button class="bt5">오이</button>
+            <button class="bt5">아보카도</button>
+            <button class="bt5">브로콜리</button>
+        </div>
+        <div class="grid">
+            <button class="bt4 secondary">당근삭제</button>
+            <button class="bt4 secondary">오이삭제</button>
+            <button class="bt4 secondary">아보카도삭제</button>
+            <button class="bt4 secondary">브로콜리삭제</button>
+        </div>
+        <div class="grid">
+            <button class="bt6 contrast">당근 -> 사과</button>
+            <button class="bt6 contrast">오이 -> 바나나</button>
+            <button class="bt6 contrast">아보카도 -> 오렌지</button>
+            <button class="bt6 contrast">브로콜리 -> 수박</button>
+        </div>
+        <div class="grid">
+            <button id="btReset" class="btReset">Cancel</button>
         </div>
     </article>
 </body>
