@@ -2,6 +2,7 @@ https://icecaptin.github.io/k-digital_HTML/
 
 [LONG LIVE CHAT GPT !!!!!!!]   
 
+(04.20 : 영화박스오피스api이용 및 표시)    
 (04.18 : Firebase 호스팅)   
 (04.18 : 폭탄게임만들기)   
 (04.14 : 이모지생성,제거,변경)   
